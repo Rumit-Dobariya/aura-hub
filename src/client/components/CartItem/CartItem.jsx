@@ -22,7 +22,7 @@ export default function CartItem(props) {
         <p className="text-[#2563EB] font-semibold mt-1">
           ${(item.price * item.quantity).toFixed(2)}
         </p>
-        <p className="text-xs text-[#9CA3AF] mt-1">
+        <p className="text-xs text-[#9CA3AF] mt-[4px]">
           ${item.price.toFixed(2)} each
         </p>
       </div>
