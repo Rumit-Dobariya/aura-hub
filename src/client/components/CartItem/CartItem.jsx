@@ -11,7 +11,7 @@ export default function CartItem(props) {
           src={item.image}
           alt={item.title}
           className="w-full h-full object-contain p-2"
-        />
+        />  
       </div>
 
       {/* Details */}
